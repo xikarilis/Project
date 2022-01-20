@@ -22,7 +22,7 @@ public class Task_1 {
 //            if (secondNumber > thirdNumber){
 //                System.out.println("second number " + secondNumber);
 //            }}
-//        if (thirdNumber>=firstNumber){
+//        if (thirdNumber>firstNumber){
 //            if (thirdNumber>secondNumber){
 //                System.out.println("third number " + thirdNumber);
 //            }}
