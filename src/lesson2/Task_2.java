@@ -7,10 +7,13 @@ public class Task_2 {
         Scanner scTask_2 = new Scanner(System.in);
         double firstNumber = scTask_2.nextDouble();
         double secondNumber = scTask_2.nextDouble();
-        if (firstNumber%secondNumber == 0){
-            System.out.println("кратное");
-        }else {
-            System.out.println("не кратное");
-        }
+//        if (firstNumber%secondNumber == 0){
+//            System.out.println("кратное");
+//        }else {
+//            System.out.println("не кратное");
+//        }
+//     *** TERNARY OPERATOR ***
+       String result = (firstNumber%secondNumber == 0)? "кратно" : "не кратно";
+        System.out.println(result);
     }
 }
