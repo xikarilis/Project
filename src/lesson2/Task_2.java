@@ -13,7 +13,7 @@ public class Task_2 {
 //            System.out.println("не кратное");
 //        }
 //     *** TERNARY OPERATOR ***
-       String result = (firstNumber%secondNumber == 0)? "кратно" : "не кратно";
+        String result = (firstNumber % secondNumber == 0) ? "кратно" : "не кратно";
         System.out.println(result);
     }
 }

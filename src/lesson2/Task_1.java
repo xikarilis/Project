@@ -22,23 +22,23 @@ public class Task_1 {
 //            if (secondNumber > thirdNumber){
 //                System.out.println("second number " + secondNumber);
 //            }}
-//        if (thirdNumber>firstNumber){
-//            if (thirdNumber>secondNumber){
+//        if (thirdNumber > firstNumber){
+//            if (thirdNumber > secondNumber){
 //                System.out.println("third number " + thirdNumber);
 //            }}
-        if (firstNumber == secondNumber && secondNumber == thirdNumber){
+        if (firstNumber == secondNumber & secondNumber == thirdNumber) {
             System.out.println("the numbers are equal");
         }
-        if (firstNumber > secondNumber && firstNumber > thirdNumber){
+        if (firstNumber > secondNumber & firstNumber > thirdNumber) {
             System.out.println("first number " + firstNumber);
         }
-        if (secondNumber > firstNumber && secondNumber > thirdNumber){
+        if (secondNumber > firstNumber & secondNumber > thirdNumber) {
             System.out.println("second number " + secondNumber);
         }
-        if (thirdNumber > secondNumber && thirdNumber > firstNumber){
+        if (thirdNumber > secondNumber & thirdNumber > firstNumber) {
             System.out.println("third number " + thirdNumber);
         }
-        }
     }
+}
 
 

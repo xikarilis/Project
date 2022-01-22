@@ -16,15 +16,15 @@ public class Сalculator_2 {
         char operation = scCalculator.next().charAt(0);
         if (operation == '+') {
             System.out.println(firstNum + secondNum);
-        }else if (operation == '/' & secondNum != 0) {
+        } else if (operation == '/' & secondNum != 0) {
             System.out.println(firstNum / secondNum);
-        }else if (operation == '/' & secondNum == 0){
+        } else if (operation == '/' & secondNum == 0) {
             System.out.println("it cannot be divided by 0");
-        }else if (operation == '-'){
+        } else if (operation == '-') {
             System.out.println(firstNum - secondNum);
-        }else if (operation == '*') {
+        } else if (operation == '*') {
             System.out.println(firstNum * secondNum);
-        }else {
+        } else {
             System.out.println("error");
         }
     }
