@@ -17,7 +17,7 @@ public class Task_4 {
             notEvenNumbers += 2;
         } while (notEvenNumbers <= 99 & notEvenNumbers % 2 != 0);
         System.out.println("Сумма нечетных чисел " + sumNotEvenNum);
-
+        //
         System.out.println("Общая сумма" + (sumEvenNum + sumNotEvenNum));
     }
 }
