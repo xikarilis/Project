@@ -69,7 +69,7 @@ public class ClassWorkTask1 {
 //            System.out.println("\n");
 //        } while (x < 10);//почему выводит 10?
         //****
-
+        System.out.println(" ");
     }
 
 }
