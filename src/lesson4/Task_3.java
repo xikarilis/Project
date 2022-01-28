@@ -5,7 +5,7 @@ public class Task_3 {
         int num= 1;
         int sum=0;
         do {
-//            System.out.print(num+" ");
+            System.out.print(num+" ");
             sum+=num;
 //            System.out.println(sum+" ");
             num+=2;
