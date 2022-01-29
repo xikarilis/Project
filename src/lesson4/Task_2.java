@@ -6,6 +6,6 @@ public class Task_2 {
         do{
             num+=2;
             System.out.print(num+" ");
-        }while (num<100);
+        }while (num<100);//100-const
     }
 }
