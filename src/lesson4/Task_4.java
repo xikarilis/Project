@@ -6,6 +6,7 @@ public class Task_4 {
         int sumNotEvenNum = 0;
         int num = 0;
 
+//100-const
         while (num < 100) {
             num += 1;
             if (num % 2 == 0) {
