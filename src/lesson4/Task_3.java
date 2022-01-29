@@ -9,7 +9,7 @@ public class Task_3 {
             sum+=num;
 //            System.out.println(sum+" ");
             num+=2;
-        }while (num<=99);
+        }while (num<=99);//99-const 
         System.out.println(sum);
     }
 }
