@@ -9,7 +9,7 @@ public class Task_2 {
         int a = scTask_2.nextInt();
         int b = scTask_2.nextInt();
         int sum = 0;
-        for (int i = 0; i <= b; ) {
+        for (int i = 0; i != b; ) {
             i += 1;
             sum += a;
             if (i == b) {

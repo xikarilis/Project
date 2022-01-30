@@ -6,7 +6,7 @@ public class Task_5 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int width_1 = scanner.nextInt(); // ввести 4
-        int height_1 = scanner.nextInt();//ввести -4
+        int height_1 = scanner.nextInt();// ввести -4
 
         for (; height_1 <= -1; height_1++) {
             for (int j = width_1; height_1 >= -j & j != height_1; j--) {
