@@ -16,7 +16,7 @@ public class Calculator {
             char operation = scanner.next().charAt(0);
             if (operation == '+') {
                 System.out.println(firstNum + secondNum);
-            } else if (operation == '/' & secondNum != 0) {
+            } else if (operation == '/' & secondNum != 0) {//combine 19 and 21 lines. Looks like duplicate
                 System.out.println(firstNum / secondNum);
             } else if (operation == '/' & secondNum == 0) {
                 System.out.println("it cannot be divided by 0");
@@ -29,6 +29,7 @@ public class Calculator {
             }
             System.out.println("Хотите продолжить? yes / no");
             exit = scanner.next();
+            //Hm, Objects? exit.equals("yes") would be better
             if (Objects.equals(exit, "yes")) {
             } else if (Objects.equals(exit, "no")) {
                 break;
