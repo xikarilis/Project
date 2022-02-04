@@ -21,7 +21,8 @@ public class Calculator {
             } else if (operation == '/' & secondNum == 0) {
                 System.out.println("it cannot be divided by 0");
             } else if (operation == '-') {
-                System.out.println(firstNum - secondNum);
+                double result = firstNum - secondNum;
+                System.out.println(result);
             } else if (operation == '*') {
                 System.out.println(firstNum * secondNum);
             } else {
@@ -34,6 +35,7 @@ public class Calculator {
                 break;
             } else {
                 System.out.println("eror");
+                break;
             }
         } while (exit != "no");
     }
