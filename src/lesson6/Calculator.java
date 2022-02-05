@@ -16,10 +16,10 @@ public class Calculator {
             char operation = scanner.next().charAt(0);
             if (operation == '+') {
                 System.out.println(firstNum + secondNum);
-            } else if (operation == '/' & secondNum != 0) {//combine 19 and 21 lines. Looks like duplicate
-                System.out.println(firstNum / secondNum);
-            } else if (operation == '/' & secondNum == 0) {
-                System.out.println("it cannot be divided by 0");
+            } else if (operation == '/') {
+                String res = (secondNum != 0) ? String.valueOf(firstNum / secondNum) : "it cannot be divided by 0";
+                System.out.println(res);
+                //combine 19 and 21 lines. Looks like duplicate
             } else if (operation == '-') {
                 double result = firstNum - secondNum;
                 System.out.println(result);
@@ -31,14 +31,14 @@ public class Calculator {
             System.out.println("Хотите продолжить? yes / no");
             exit = scanner.next();
             //Hm, Objects? exit.equals("yes") would be better
-            if (Objects.equals(exit, "yes")) {
-            } else if (Objects.equals(exit, "no")) {
+            if (exit.equals("yes")) {
+            } else if (exit.equals("no")) {
                 break;
             } else {
-                System.out.println("eror");
+                System.out.println("error");
                 break;
             }
-        } while (exit != "no");
+        } while (true);
     }
 }
 
