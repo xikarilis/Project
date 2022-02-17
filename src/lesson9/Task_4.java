@@ -11,13 +11,14 @@ public class Task_4 {
         System.out.println("enter size array");
         int size = scanner.nextInt();
         int[][] myArray = new int[size][size];
-        int[][] result = new int[size][1];
+        int[] result = new int[size];
         for (int i = 0; i < myArray.length; i++) {
             for (int j = 0; j < myArray.length; j++) {
                 myArray[i][j] = random.nextInt(20);
-                result[i][0] += myArray[i][j];
+                result[i] += myArray[i][j];
             }
-            System.out.println(Arrays.toString(myArray[i]) + Arrays.toString(result[i]));
+            System.out.println(Arrays.toString(myArray[i]));
         }
+        System.out.println(Arrays.toString(result));
     }
 }
