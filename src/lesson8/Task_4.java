@@ -11,23 +11,22 @@ public class Task_4 {
         int[] array = new int[size];
         System.out.println("enter the array elements");
         int i = 0;
-        do {
+        while (i < array.length) {
             array[i] = scanner.nextInt();
             i++;
         }
-        while (i < array.length);
-        System.out.print(Arrays.toString(array) + '\n');
+        System.out.println(Arrays.toString(array));
         System.out.println("enter number");
         int number = scanner.nextInt();
         boolean coincidence = false;
         int j = 0;
-        do {
+        while (j < array.length) {
             if (array[j] == number) {
                 coincidence = true;
                 break;
             }
             j++;
-        } while (j < array.length);
+        }
         String result = coincidence ? "yes" : "no";
         System.out.println(result);
     }

@@ -18,10 +18,9 @@ public class Task_5 {
             }
             System.out.println(Arrays.toString(myArray[i]));
         }
-        for (int i = 0, j = 0; i < myArray.length; i++, j++) {
-            result += myArray[i][j];
+        for (int i = 0; i < myArray.length; i++) {
+            result += myArray[i][i];
         }
-
         System.out.println(result);
     }
 }
