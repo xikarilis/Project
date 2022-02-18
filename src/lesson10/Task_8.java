@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Task_5 {
+public class Task_8 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
@@ -14,17 +14,15 @@ public class Task_5 {
             numbers[i] = random.nextInt(20);
         }
         System.out.println(Arrays.toString(numbers));
-        int tmp;
-        for (int i = numbers.length - 1; i > 0; i--) {
-            for (int j = 0; j < i; j++) {
-                if (numbers[i] < numbers[j]) {
-                    tmp = numbers[i];
-                    numbers[i] = numbers[j];
-                    numbers[j] = tmp;
-                }
+        int numberToRemove = scanner.nextInt();
+        int[] remove =new int[numbers.length-1];
+        int counter=0;
+        for (int num:numbers) {
+            if (num!=numberToRemove){
+                remove[counter] =num;
+                counter++;
             }
         }
-        System.out.println(Arrays.toString(numbers));
-        System.out.println("min: " + numbers[0] + " max: " + numbers[numbers.length - 1]);
+        System.out.println(Arrays.toString(remove));
     }
 }
