@@ -3,7 +3,7 @@ package lesson15;
 import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
-
+//https://www.youtube.com/watch?v=aLW-zyszeqM
 public class Exam_task {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
