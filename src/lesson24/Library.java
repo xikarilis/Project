@@ -1,4 +1,4 @@
-package lesson22;
+package lesson24;
 
 import lesson24.Book;
 import lesson24.Reader;
